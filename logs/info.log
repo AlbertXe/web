@@ -1,0 +1,537 @@
+[2020-01-30 18:48:20] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting WebdemoApplication on O7BSX9MRS2WLH05 with PID 11500 (D:\idea_study\webdemo\target\classes started by Administrator in D:\idea_study\webdemo)
+[2020-01-30 18:48:20] INFO  org.springframework.boot.SpringApplication 651 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[2020-01-30 18:48:20] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in D:\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[2020-01-30 18:48:20] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in D:\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/D:/repository/javax/mail/mail/1.4/activation.jar
+[2020-01-30 18:48:20] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-01-30 18:48:20] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-01-30 18:49:03] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-01-30 18:49:12] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 9604ms. Found 0 repository interfaces.
+[2020-01-30 18:49:13] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-30 18:49:14] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize - Tomcat initialized with port(s): 8081 (http)
+[2020-01-30 18:49:14] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-01-30 18:49:14] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2020-01-30 18:49:15] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-01-30 18:49:15] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 54482 ms
+[2020-01-30 18:49:16] INFO  com.aop.filter.MyFilter 22 init - 初始化过滤器：MyFilter
+[2020-01-30 18:49:19] INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.6.Final}
+[2020-01-30 18:49:19] INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-01-30 18:49:22] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+[2020-01-30 18:49:22] INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2020-01-30 18:49:24] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-01-30 18:49:24] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 416 buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-01-30 18:49:24] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+[2020-01-30 18:49:25] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-30 18:49:26] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-01-30 18:49:26] INFO  org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor 297 finishRegistration - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[2020-01-30 18:49:26] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2020-01-30 18:49:26] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started WebdemoApplication in 69.78 seconds (JVM running for 81.727)
+[2020-01-30 18:50:17] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-30 18:50:17] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2020-01-30 18:50:17] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 16 ms
+[2020-01-30 18:50:17] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/,url:http://localhost:8081/*****
+[2020-01-30 18:50:17] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/
+[2020-01-30 18:50:17] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/
+[2020-01-30 18:50:17] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/，耗时90
+[2020-01-30 18:50:17] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/error
+[2020-01-30 18:50:17] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/error
+[2020-01-30 18:50:17] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/error，耗时52
+[2020-01-30 18:50:17] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/favicon.ico,url:http://localhost:8081/favicon.ico*****
+[2020-01-30 18:50:17] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/favicon.ico
+[2020-01-30 18:50:17] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/favicon.ico
+[2020-01-30 18:50:17] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/favicon.ico，耗时7
+[2020-01-30 18:50:17] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/error
+[2020-01-30 18:50:18] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/error
+[2020-01-30 18:50:18] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/error，耗时192
+[2020-01-30 18:52:10] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/,url:http://localhost:8081/*****
+[2020-01-30 18:52:10] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/
+[2020-01-30 18:52:10] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/
+[2020-01-30 18:52:10] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/，耗时1
+[2020-01-30 18:52:10] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/error
+[2020-01-30 18:52:10] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/error
+[2020-01-30 18:52:10] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/error，耗时13
+[2020-01-30 18:52:12] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/,url:http://localhost:8081/*****
+[2020-01-30 18:52:12] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/
+[2020-01-30 18:52:12] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/
+[2020-01-30 18:52:12] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/，耗时1
+[2020-01-30 18:52:12] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/error
+[2020-01-30 18:52:12] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/error
+[2020-01-30 18:52:12] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/error，耗时12
+[2020-01-30 18:53:34] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting WebdemoApplication on O7BSX9MRS2WLH05 with PID 1104 (D:\idea_study\webdemo\target\classes started by Administrator in D:\idea_study\webdemo)
+[2020-01-30 18:53:34] INFO  org.springframework.boot.SpringApplication 651 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[2020-01-30 18:53:35] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[2020-01-30 18:53:35] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/javax/mail/mail/1.4/activation.jar
+[2020-01-30 18:53:35] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-01-30 18:53:35] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-01-30 18:53:50] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-01-30 18:53:55] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 4842ms. Found 0 repository interfaces.
+[2020-01-30 18:53:55] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-30 18:53:56] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize - Tomcat initialized with port(s): 8081 (http)
+[2020-01-30 18:53:56] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-01-30 18:53:56] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2020-01-30 18:53:56] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-01-30 18:53:56] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 21559 ms
+[2020-01-30 18:53:57] INFO  com.aop.filter.MyFilter 22 init - 初始化过滤器：MyFilter
+[2020-01-30 18:54:00] INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.6.Final}
+[2020-01-30 18:54:00] INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-01-30 18:54:03] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+[2020-01-30 18:54:03] INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2020-01-30 18:54:04] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-01-30 18:54:04] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 416 buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-01-30 18:54:04] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+[2020-01-30 18:54:05] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-30 18:54:05] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping 54 <init> - Adding welcome page: class path resource [static/index.html]
+[2020-01-30 18:54:06] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-01-30 18:54:06] INFO  org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor 297 finishRegistration - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[2020-01-30 18:54:06] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2020-01-30 18:54:06] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started WebdemoApplication in 31.911 seconds (JVM running for 37.28)
+[2020-01-30 18:54:15] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-30 18:54:15] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2020-01-30 18:54:15] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 17 ms
+[2020-01-30 18:54:15] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/,url:http://localhost:8081/*****
+[2020-01-30 18:54:15] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/
+[2020-01-30 18:54:15] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/
+[2020-01-30 18:54:15] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/index.html
+[2020-01-30 18:54:15] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/index.html
+[2020-01-30 18:54:15] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/index.html，耗时10
+[2020-01-30 18:54:15] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/，耗时16
+[2020-01-30 19:06:53] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting WebdemoApplication on O7BSX9MRS2WLH05 with PID 13392 (D:\idea_study\webdemo\target\classes started by Administrator in D:\idea_study\webdemo)
+[2020-01-30 19:06:53] INFO  org.springframework.boot.SpringApplication 651 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[2020-01-30 19:06:54] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[2020-01-30 19:06:54] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/javax/mail/mail/1.4/activation.jar
+[2020-01-30 19:06:54] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-01-30 19:06:54] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-01-30 19:07:06] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-01-30 19:07:10] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 4214ms. Found 0 repository interfaces.
+[2020-01-30 19:07:10] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-30 19:07:11] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize - Tomcat initialized with port(s): 8081 (http)
+[2020-01-30 19:07:11] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-01-30 19:07:11] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2020-01-30 19:07:11] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-01-30 19:07:11] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 17537 ms
+[2020-01-30 19:07:12] INFO  com.aop.filter.MyFilter 22 init - 初始化过滤器：MyFilter
+[2020-01-30 19:07:15] INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.6.Final}
+[2020-01-30 19:07:15] INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-01-30 19:07:17] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+[2020-01-30 19:07:17] INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2020-01-30 19:07:18] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-01-30 19:07:18] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 416 buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-01-30 19:07:18] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+[2020-01-30 19:07:19] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-30 19:07:19] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping 54 <init> - Adding welcome page: class path resource [static/index.html]
+[2020-01-30 19:07:19] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-01-30 19:07:19] INFO  org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor 297 finishRegistration - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[2020-01-30 19:07:20] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2020-01-30 19:07:20] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started WebdemoApplication in 26.661 seconds (JVM running for 31.793)
+[2020-01-30 19:07:40] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-30 19:07:40] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2020-01-30 19:07:40] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 13 ms
+[2020-01-30 19:07:40] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/,url:http://localhost:8081/*****
+[2020-01-30 19:07:40] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/
+[2020-01-30 19:07:40] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/
+[2020-01-30 19:07:40] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/index.html
+[2020-01-30 19:07:40] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/index.html
+[2020-01-30 19:07:40] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/index.html，耗时13
+[2020-01-30 19:07:40] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/，耗时19
+[2020-01-30 19:07:44] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:07:44] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:07:44] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:07:45] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时389
+[2020-01-30 19:08:04] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:04] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:04] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:04] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时6
+[2020-01-30 19:08:07] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:07] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:07] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:07] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时7
+[2020-01-30 19:08:09] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:09] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:09] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:09] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时7
+[2020-01-30 19:08:10] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:10] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:10] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:10] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时3
+[2020-01-30 19:08:10] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:10] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:10] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:10] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时5
+[2020-01-30 19:08:10] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:10] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:10] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:10] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时6
+[2020-01-30 19:08:10] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:10] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:10] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:10] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时5
+[2020-01-30 19:08:11] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:11] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:11] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:11] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时4
+[2020-01-30 19:08:11] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:11] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:11] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:11] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时3
+[2020-01-30 19:08:11] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:11] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:11] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:11] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时4
+[2020-01-30 19:08:12] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时6
+[2020-01-30 19:08:12] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时6
+[2020-01-30 19:08:12] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时3
+[2020-01-30 19:08:12] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时4
+[2020-01-30 19:08:12] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:12] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时4
+[2020-01-30 19:08:13] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:13] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:13] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:13] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时4
+[2020-01-30 19:08:14] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:14] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:14] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:14] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时5
+[2020-01-30 19:08:14] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:14] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:14] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:14] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时5
+[2020-01-30 19:08:14] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:14] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:14] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:14] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时4
+[2020-01-30 19:08:14] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:14] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:14] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:14] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时3
+[2020-01-30 19:08:15] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:15] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:15] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:15] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时4
+[2020-01-30 19:08:15] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:08:15] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:08:15] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:08:15] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时3
+[2020-01-30 19:09:55] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:09:55] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:09:55] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:09:55] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时6
+[2020-01-30 19:11:37] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting WebdemoApplication on O7BSX9MRS2WLH05 with PID 1260 (D:\idea_study\webdemo\target\classes started by Administrator in D:\idea_study\webdemo)
+[2020-01-30 19:11:37] INFO  org.springframework.boot.SpringApplication 651 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[2020-01-30 19:11:37] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[2020-01-30 19:11:37] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/javax/mail/mail/1.4/activation.jar
+[2020-01-30 19:11:37] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-01-30 19:11:37] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-01-30 19:11:50] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-01-30 19:11:54] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 4104ms. Found 0 repository interfaces.
+[2020-01-30 19:11:54] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-30 19:11:55] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize - Tomcat initialized with port(s): 8081 (http)
+[2020-01-30 19:11:55] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-01-30 19:11:55] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2020-01-30 19:11:55] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-01-30 19:11:55] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 17953 ms
+[2020-01-30 19:11:56] INFO  com.aop.filter.MyFilter 22 init - 初始化过滤器：MyFilter
+[2020-01-30 19:11:59] INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.6.Final}
+[2020-01-30 19:11:59] INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-01-30 19:12:01] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+[2020-01-30 19:12:01] INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2020-01-30 19:12:02] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-01-30 19:12:02] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 416 buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-01-30 19:12:02] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+[2020-01-30 19:12:03] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-30 19:12:03] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping 54 <init> - Adding welcome page: class path resource [static/index.html]
+[2020-01-30 19:12:04] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-01-30 19:12:04] INFO  org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor 297 finishRegistration - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[2020-01-30 19:12:04] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2020-01-30 19:12:04] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started WebdemoApplication in 27.546 seconds (JVM running for 32.458)
+[2020-01-30 19:13:01] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-30 19:13:01] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2020-01-30 19:13:01] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 14 ms
+[2020-01-30 19:13:01] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/hello,url:http://localhost:8081/hello*****
+[2020-01-30 19:13:01] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/hello
+[2020-01-30 19:13:01] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/hello
+[2020-01-30 19:13:01] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/hello，耗时414
+[2020-01-30 19:13:06] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/index,url:http://localhost:8081/index*****
+[2020-01-30 19:13:06] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/index
+[2020-01-30 19:13:06] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/index
+[2020-01-30 19:13:06] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/index，耗时20
+[2020-01-30 19:13:06] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/error
+[2020-01-30 19:13:06] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/error
+[2020-01-30 19:13:06] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/error，耗时23
+[2020-01-30 19:13:27] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/index,url:http://localhost:8081/index*****
+[2020-01-30 19:13:27] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/index
+[2020-01-30 19:13:27] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/index
+[2020-01-30 19:13:27] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/index，耗时6
+[2020-01-30 19:18:30] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 208 shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-01-30 19:18:30] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 598 destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-01-30 19:18:30] INFO  com.alibaba.druid.pool.DruidDataSource 1825 close - {dataSource-1} closed
+[2020-01-30 19:18:32] INFO  com.aop.filter.MyFilter 42 destroy - 销毁过滤器：MyFilter
+[2020-01-30 19:18:32] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting WebdemoApplication on O7BSX9MRS2WLH05 with PID 1260 (D:\idea_study\webdemo\target\classes started by Administrator in D:\idea_study\webdemo)
+[2020-01-30 19:18:32] INFO  org.springframework.boot.SpringApplication 651 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[2020-01-30 19:18:42] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-01-30 19:18:46] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 3883ms. Found 0 repository interfaces.
+[2020-01-30 19:18:46] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-30 19:18:47] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize - Tomcat initialized with port(s): 8081 (http)
+[2020-01-30 19:18:47] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-01-30 19:18:47] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2020-01-30 19:18:47] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-01-30 19:18:47] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 14397 ms
+[2020-01-30 19:18:47] INFO  com.aop.filter.MyFilter 22 init - 初始化过滤器：MyFilter
+[2020-01-30 19:18:50] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-2} inited
+[2020-01-30 19:18:50] INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2020-01-30 19:18:50] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-01-30 19:18:50] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 416 buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-01-30 19:18:50] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+[2020-01-30 19:18:50] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-30 19:18:50] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping 58 <init> - Adding welcome page template: index
+[2020-01-30 19:18:51] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-01-30 19:18:51] INFO  org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor 297 finishRegistration - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[2020-01-30 19:18:51] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2020-01-30 19:18:51] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started WebdemoApplication in 18.714 seconds (JVM running for 439.067)
+[2020-01-30 19:18:51] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener 63 onApplicationEvent - Condition evaluation unchanged
+[2020-01-30 19:23:24] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting WebdemoApplication on O7BSX9MRS2WLH05 with PID 13340 (D:\idea_study\webdemo\target\classes started by Administrator in D:\idea_study\webdemo)
+[2020-01-30 19:23:24] INFO  org.springframework.boot.SpringApplication 651 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[2020-01-30 19:23:24] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[2020-01-30 19:23:24] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/javax/mail/mail/1.4/activation.jar
+[2020-01-30 19:23:24] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-01-30 19:23:24] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-01-30 19:23:35] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-01-30 19:23:39] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 4022ms. Found 0 repository interfaces.
+[2020-01-30 19:23:39] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-30 19:23:40] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize - Tomcat initialized with port(s): 8081 (http)
+[2020-01-30 19:23:40] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-01-30 19:23:40] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2020-01-30 19:23:40] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-01-30 19:23:40] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 16278 ms
+[2020-01-30 19:23:41] INFO  com.aop.filter.MyFilter 22 init - 初始化过滤器：MyFilter
+[2020-01-30 19:23:44] INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.6.Final}
+[2020-01-30 19:23:44] INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-01-30 19:23:46] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+[2020-01-30 19:23:46] INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2020-01-30 19:23:47] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-01-30 19:23:47] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 416 buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-01-30 19:23:47] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+[2020-01-30 19:23:48] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-30 19:23:48] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping 58 <init> - Adding welcome page template: index
+[2020-01-30 19:23:48] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-01-30 19:23:48] INFO  org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor 297 finishRegistration - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[2020-01-30 19:23:48] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2020-01-30 19:23:48] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started WebdemoApplication in 25.283 seconds (JVM running for 30.208)
+[2020-01-30 19:23:59] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-30 19:23:59] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2020-01-30 19:23:59] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 16 ms
+[2020-01-30 19:23:59] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/userList,url:http://localhost:8081/userList*****
+[2020-01-30 19:23:59] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/userList
+[2020-01-30 19:24:00] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-2} inited
+[2020-01-30 19:24:00] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/userList
+[2020-01-30 19:24:00] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/userList，耗时554
+[2020-01-30 19:24:08] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/users,url:http://localhost:8081/users*****
+[2020-01-30 19:24:08] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/users
+[2020-01-30 19:24:08] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/users
+[2020-01-30 19:24:08] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/users，耗时24
+[2020-01-30 19:24:08] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/error
+[2020-01-30 19:24:08] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/error
+[2020-01-30 19:24:08] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/error，耗时15
+[2020-01-30 19:26:59] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/userList,url:http://localhost:8081/userList*****
+[2020-01-30 19:26:59] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/userList
+[2020-01-30 19:26:59] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/userList
+[2020-01-30 19:26:59] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/userList，耗时26
+[2020-01-30 19:27:03] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/userList,url:http://localhost:8081/userList*****
+[2020-01-30 19:27:03] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/userList
+[2020-01-30 19:27:03] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/userList
+[2020-01-30 19:27:03] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/userList，耗时11
+[2020-01-30 19:27:05] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/userList,url:http://localhost:8081/userList*****
+[2020-01-30 19:27:05] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/userList
+[2020-01-30 19:27:05] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/userList
+[2020-01-30 19:27:05] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/userList，耗时14
+[2020-01-30 19:28:31] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/userList,url:http://localhost:8081/userList*****
+[2020-01-30 19:28:31] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/userList
+[2020-01-30 19:28:31] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/userList
+[2020-01-30 19:28:31] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/userList，耗时19
+[2020-01-30 19:28:32] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 208 shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-01-30 19:28:32] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 598 destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-01-30 19:28:32] INFO  com.alibaba.druid.pool.DruidDataSource 1825 close - {dataSource-2} closed
+[2020-01-30 19:28:32] INFO  com.alibaba.druid.pool.DruidDataSource 1825 close - {dataSource-1} closed
+[2020-01-30 19:28:34] INFO  com.aop.filter.MyFilter 42 destroy - 销毁过滤器：MyFilter
+[2020-01-30 19:28:34] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting WebdemoApplication on O7BSX9MRS2WLH05 with PID 13340 (D:\idea_study\webdemo\target\classes started by Administrator in D:\idea_study\webdemo)
+[2020-01-30 19:28:34] INFO  org.springframework.boot.SpringApplication 651 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[2020-01-30 19:28:44] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-01-30 19:28:48] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 4176ms. Found 0 repository interfaces.
+[2020-01-30 19:28:48] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-30 19:28:48] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize - Tomcat initialized with port(s): 8081 (http)
+[2020-01-30 19:28:48] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-01-30 19:28:48] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2020-01-30 19:28:48] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-01-30 19:28:48] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 14410 ms
+[2020-01-30 19:28:49] INFO  com.aop.filter.MyFilter 22 init - 初始化过滤器：MyFilter
+[2020-01-30 19:28:51] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-3} inited
+[2020-01-30 19:28:51] INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2020-01-30 19:28:51] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-01-30 19:28:51] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 416 buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-01-30 19:28:51] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+[2020-01-30 19:28:52] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-30 19:28:52] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping 58 <init> - Adding welcome page template: index
+[2020-01-30 19:28:53] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-01-30 19:28:53] INFO  org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor 297 finishRegistration - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[2020-01-30 19:28:53] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2020-01-30 19:28:53] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started WebdemoApplication in 18.78 seconds (JVM running for 334.308)
+[2020-01-30 19:28:53] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener 63 onApplicationEvent - Condition evaluation unchanged
+[2020-01-30 19:29:27] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-30 19:29:27] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2020-01-30 19:29:27] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 13 ms
+[2020-01-30 19:29:27] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/userList,url:http://localhost:8081/userList*****
+[2020-01-30 19:29:27] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/userList
+[2020-01-30 19:29:27] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-4} inited
+[2020-01-30 19:29:27] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/userList
+[2020-01-30 19:29:27] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/userList，耗时103
+[2020-01-30 19:29:29] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/userList,url:http://localhost:8081/userList*****
+[2020-01-30 19:29:29] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/userList
+[2020-01-30 19:29:29] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/userList
+[2020-01-30 19:29:29] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/userList，耗时15
+[2020-01-30 19:30:29] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting WebdemoApplication on O7BSX9MRS2WLH05 with PID 4556 (D:\idea_study\webdemo\target\classes started by Administrator in D:\idea_study\webdemo)
+[2020-01-30 19:30:29] INFO  org.springframework.boot.SpringApplication 651 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[2020-01-30 19:30:29] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[2020-01-30 19:30:29] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/javax/mail/mail/1.4/activation.jar
+[2020-01-30 19:30:29] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-01-30 19:30:29] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-01-30 19:30:40] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-01-30 19:30:45] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 4829ms. Found 0 repository interfaces.
+[2020-01-30 19:30:46] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-30 19:30:47] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize - Tomcat initialized with port(s): 8081 (http)
+[2020-01-30 19:30:47] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-01-30 19:30:47] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2020-01-30 19:30:47] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-01-30 19:30:47] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 17675 ms
+[2020-01-30 19:30:48] INFO  com.aop.filter.MyFilter 22 init - 初始化过滤器：MyFilter
+[2020-01-30 19:30:50] INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.6.Final}
+[2020-01-30 19:30:51] INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-01-30 19:30:53] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+[2020-01-30 19:30:53] INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2020-01-30 19:30:53] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-01-30 19:30:53] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 416 buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-01-30 19:30:54] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+[2020-01-30 19:30:55] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-30 19:30:55] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping 58 <init> - Adding welcome page template: index
+[2020-01-30 19:31:07] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting WebdemoApplication on O7BSX9MRS2WLH05 with PID 12284 (D:\idea_study\webdemo\target\classes started by Administrator in D:\idea_study\webdemo)
+[2020-01-30 19:31:07] INFO  org.springframework.boot.SpringApplication 651 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[2020-01-30 19:31:07] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[2020-01-30 19:31:07] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/javax/mail/mail/1.4/activation.jar
+[2020-01-30 19:31:07] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-01-30 19:31:07] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-01-30 19:31:18] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-01-30 19:31:23] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 4419ms. Found 0 repository interfaces.
+[2020-01-30 19:31:23] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-30 19:31:24] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize - Tomcat initialized with port(s): 8081 (http)
+[2020-01-30 19:31:24] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-01-30 19:31:24] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2020-01-30 19:31:24] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-01-30 19:31:24] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 17002 ms
+[2020-01-30 19:31:25] INFO  com.aop.filter.MyFilter 22 init - 初始化过滤器：MyFilter
+[2020-01-30 19:31:28] INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.6.Final}
+[2020-01-30 19:31:28] INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-01-30 19:31:30] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+[2020-01-30 19:31:30] INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2020-01-30 19:31:32] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-01-30 19:31:32] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 416 buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-01-30 19:31:32] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+[2020-01-30 19:31:33] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-30 19:31:33] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping 58 <init> - Adding welcome page template: index
+[2020-01-30 19:31:34] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-01-30 19:31:34] INFO  org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor 297 finishRegistration - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[2020-01-30 19:31:35] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2020-01-30 19:31:35] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started WebdemoApplication in 28.039 seconds (JVM running for 33.305)
+[2020-01-30 19:32:00] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-30 19:32:00] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2020-01-30 19:32:00] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 17 ms
+[2020-01-30 19:32:00] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/userList,url:http://localhost:8081/userList*****
+[2020-01-30 19:32:00] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/userList
+[2020-01-30 19:32:12] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-2} inited
+[2020-01-30 19:32:15] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/userList
+[2020-01-30 19:32:15] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/userList，耗时15546
+[2020-01-30 19:32:15] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/favicon.ico,url:http://localhost:8081/favicon.ico*****
+[2020-01-30 19:32:15] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/favicon.ico
+[2020-01-30 19:32:15] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/favicon.ico
+[2020-01-30 19:32:15] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/favicon.ico，耗时5
+[2020-01-30 19:32:16] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/error
+[2020-01-30 19:32:16] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/error
+[2020-01-30 19:32:16] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/error，耗时106
+[2020-01-30 19:40:25] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/userList,url:http://localhost:8081/userList*****
+[2020-01-30 19:40:25] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/userList
+[2020-01-30 19:40:25] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/userList
+[2020-01-30 19:40:25] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/userList，耗时46
+[2020-01-30 19:40:27] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/userList,url:http://localhost:8081/userList*****
+[2020-01-30 19:40:27] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/userList
+[2020-01-30 19:40:27] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/userList
+[2020-01-30 19:40:27] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/userList，耗时22
+[2020-01-30 19:40:41] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/userList,url:http://localhost:8081/userList*****
+[2020-01-30 19:40:41] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/userList
+[2020-01-30 19:40:41] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/userList
+[2020-01-30 19:40:41] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/userList，耗时12
+[2020-01-30 19:40:55] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 208 shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-01-30 19:40:55] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 598 destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-01-30 19:40:55] INFO  com.alibaba.druid.pool.DruidDataSource 1825 close - {dataSource-2} closed
+[2020-01-30 19:40:55] INFO  com.alibaba.druid.pool.DruidDataSource 1825 close - {dataSource-1} closed
+[2020-01-30 19:40:57] INFO  com.aop.filter.MyFilter 42 destroy - 销毁过滤器：MyFilter
+[2020-01-30 20:18:48] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting WebdemoApplication on O7BSX9MRS2WLH05 with PID 10732 (D:\idea_study\webdemo\target\classes started by Administrator in D:\idea_study\webdemo)
+[2020-01-30 20:18:48] INFO  org.springframework.boot.SpringApplication 651 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[2020-01-30 20:18:48] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[2020-01-30 20:18:48] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/javax/mail/mail/1.4/activation.jar
+[2020-01-30 20:18:48] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-01-30 20:18:48] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-01-30 20:19:09] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-01-30 20:20:00] INFO  org.springframework.boot.devtools.restart.RestartApplicationListener 71 onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+[2020-01-30 20:20:03] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting WebdemoApplication on O7BSX9MRS2WLH05 with PID 952 (D:\idea_study\webdemo\target\classes started by Administrator in D:\idea_study\webdemo)
+[2020-01-30 20:20:03] INFO  org.springframework.boot.SpringApplication 651 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[2020-01-30 20:20:03] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[2020-01-30 20:20:03] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/javax/mail/mail/1.4/activation.jar
+[2020-01-30 20:20:03] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-01-30 20:20:03] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-01-30 20:20:33] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2020-01-30 20:20:44] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 10942ms. Found 0 repository interfaces.
+[2020-01-30 20:20:46] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-30 20:20:49] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 92 initialize - Tomcat initialized with port(s): 8081 (http)
+[2020-01-30 20:20:49] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-01-30 20:20:49] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2020-01-30 20:20:49] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-01-30 20:20:49] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 284 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 45931 ms
+[2020-01-30 20:20:52] INFO  com.aop.filter.MyFilter 22 init - 初始化过滤器：MyFilter
+[2020-01-30 20:21:00] INFO  org.hibernate.Version 46 logVersion - HHH000412: Hibernate Core {5.4.6.Final}
+[2020-01-30 20:21:01] INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-01-30 20:21:04] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+[2020-01-30 20:21:04] INFO  org.hibernate.dialect.Dialect 172 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2020-01-30 20:21:10] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-01-30 20:21:10] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 416 buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-01-30 20:21:10] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+[2020-01-30 20:21:14] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-30 20:21:15] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping 58 <init> - Adding welcome page template: index
+[2020-01-30 20:21:17] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-01-30 20:21:17] INFO  org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor 297 finishRegistration - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[2020-01-30 20:21:19] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2020-01-30 20:21:19] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started WebdemoApplication in 78.993 seconds (JVM running for 117.046)
+[2020-01-30 20:21:36] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-30 20:21:36] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2020-01-30 20:21:36] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 81 ms
+[2020-01-30 20:21:36] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/userList,url:http://localhost:8081/userList*****
+[2020-01-30 20:21:36] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/userList
+[2020-01-30 20:21:38] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-2} inited
+[2020-01-30 20:21:38] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/userList
+[2020-01-30 20:21:40] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/userList，耗时3810
+[2020-01-30 20:21:41] INFO  com.aop.filter.MyFilter 32 doFilter - *****uri:/favicon.ico,url:http://localhost:8081/favicon.ico*****
+[2020-01-30 20:21:41] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/favicon.ico
+[2020-01-30 20:21:41] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/favicon.ico
+[2020-01-30 20:21:41] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/favicon.ico，耗时20
+[2020-01-30 20:21:41] INFO  com.aop.interceptor.MyInterceptor 33 preHandle - MyInterceptor拦截器调用：/error
+[2020-01-30 20:21:42] INFO  com.aop.interceptor.MyInterceptor 55 postHandle - [MyInterceptor]拦截器处理路径：/error
+[2020-01-30 20:21:42] INFO  com.aop.interceptor.MyInterceptor 69 afterCompletion - [MyInterceptor]调用/error，耗时583
