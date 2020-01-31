@@ -23,4 +23,11 @@ public class HelloController {
         return "index";
     }
 
+    @RequestMapping("/index1")
+    public String index1(HttpServletRequest request,
+                        @RequestParam(value = "name", required = false, defaultValue = "albertXe") String name){
+        request.setAttribute("name",name);
+        return "index";
+    }
+
 }

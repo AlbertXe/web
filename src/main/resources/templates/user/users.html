@@ -5,6 +5,11 @@
     <title>user</title>
 </head>
 <body>
+    <table>
+        <th>
+            <td>id</td>
+            <td>姓名</td>
+    </table>
     <div th:each="user:${users}">
         <p th:text="${user.id} + ${user.name}"></p>
     </div>

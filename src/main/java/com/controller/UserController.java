@@ -67,7 +67,7 @@ public class UserController {
         System.out.println("users="+users);
         System.out.println("total=" + total);
         request.setAttribute("users",users);
-        return "/user/users";
+        return "user/users";
     }
 
 
